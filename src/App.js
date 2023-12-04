@@ -29,7 +29,7 @@ function App() {
             
         <Row>
           <Col className="text-center Footer-color">
-            <span className="fs-5">&copy;Clínica Renovar Saúde</span>
+            <span className="fs-5">&copy;Direitos Reservados - Clínica Renovar Saúde 2023</span>
           </Col>   
         </Row>
       </BrowserRouter>
