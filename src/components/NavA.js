@@ -14,22 +14,22 @@ function NavA() {
 
   return (
     <div>
-      <Navbar expand="md">
+      <Navbar expand="md secondary">
         <Col>
-          <Link className='navbar-brand' to="/">Clínica Renovar Saúde</Link>
+          <Link className='navbar-brand text-white' to="/">Clínica Renovar Saúde</Link>
         </Col>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <Link className='nav-link' to="/">Clínica</Link>
+              <Link className='nav-link text-white' to="/">Clínica</Link>
             </NavItem>
             <NavItem>
-              <Link className='nav-link' to="/Contato">Contato</Link>
+              <Link className='nav-link text-white' to="/Contato">Contato</Link>
             </NavItem>
             <NavItem>
-              <Link className='nav-link' to="/Agende">Agende</Link>
+              <Link className='nav-link text-white' to="/Agende">Agende</Link>
             </NavItem>
             <NavItem>
-              <Link className='nav-link LoginColor' to="/Login"><FaRegUser/></Link>
+              <Link className='nav-link LoginColor text-white' to="/Login"><FaRegUser/></Link>
             </NavItem>
           </Nav>
       </Navbar>

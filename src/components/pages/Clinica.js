@@ -2,9 +2,11 @@ import {
   Container,
   Col,
   Row,
+  List
 } from "reactstrap";
 import CarouselA from "../CarouselA";
 import Infraestrutura from '../img/estrutura-clinica.jpg'
+import Emojisorrindo from '../img/emojisorrindo.png'
 import '../Clinica.components.css'
 function Clinica() {
   return (
@@ -31,10 +33,16 @@ function Clinica() {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <p className="fs-4 text-center">Uma clínica boa</p>
+          <Col className="text-center">
+            <List className="list-unstyled fs-4">
+              <li>Psicologia</li>
+              <li>Dermatologia</li>
+              <li>Ortopedia</li>
+            </List>
           </Col>
-          <Col className="fs-4 text-center">Uma ótima clínica</Col>
+          <Col className="fs-4 text-center">
+            <img src={Emojisorrindo} class="rounded mx-auto d-block tamanho" alt="Emoji sorrindo" />
+          </Col>
         </Row>
       </Container>
     </div>

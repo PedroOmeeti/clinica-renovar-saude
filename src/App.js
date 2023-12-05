@@ -15,7 +15,6 @@ function App() {
         
         <Row>
           <NavA />
-          <hr className="m-0" />
         </Row>
 
         <Row>
