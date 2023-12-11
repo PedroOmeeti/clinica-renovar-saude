@@ -8,6 +8,7 @@ import {
 } from 'reactstrap';
 import { FaRegUser } from "react-icons/fa";
 import './NavA.components.css'
+import ModalLogin from './ModalLogin';
 
 function NavA() {
  
@@ -29,7 +30,7 @@ function NavA() {
               <Link className='nav-link text-white' to="/Agende">Agende</Link>
             </NavItem>
             <NavItem>
-              <Link className='nav-link LoginColor text-white' to="/Login"><FaRegUser/></Link>
+              <ModalLogin />
             </NavItem>
           </Nav>
       </Navbar>

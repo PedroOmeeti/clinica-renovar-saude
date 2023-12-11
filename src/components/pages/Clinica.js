@@ -6,8 +6,9 @@ import {
 } from "reactstrap";
 import CarouselA from "../CarouselA";
 import Infraestrutura from '../img/estrutura-clinica.jpg'
-import Emojisorrindo from '../img/emojisorrindo.png'
+// import Emojisorrindo from '../img/emojisorrindo.png'
 import '../Clinica.components.css'
+import { Link } from "react-router-dom";
 function Clinica() {
   return (
     <div>
@@ -29,7 +30,7 @@ function Clinica() {
         </Row>
         <Row>
           <Col>
-          <img src={Infraestrutura} class="img-fluid Image-height d-block mx-auto my-5" alt="Infra estrutura da clínica" />
+          <img src={Infraestrutura} className="img-fluid Image-height d-block mx-auto my-5" alt="Infra estrutura da clínica" />
           </Col>
         </Row>
         <Row>
@@ -40,11 +41,15 @@ function Clinica() {
               <li>Ortopedia</li>
             </List>
           </Col>
-          <Col className="fs-4 text-center">
-            <img src={Emojisorrindo} class="rounded mx-auto d-block tamanho" alt="Emoji sorrindo" />
+        </Row>
+        <Row>
+          <Col>
+            <Link className='nav-link LoginColor fs-4 text-center p-5 bg-primary' to="/Contato">Onde estamos localizados</Link>
           </Col>
         </Row>
+        
       </Container>
+      
     </div>
   );
 }
