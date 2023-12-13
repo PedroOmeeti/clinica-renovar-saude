@@ -43,9 +43,14 @@ function Clinica() {
           </Col>
         </Row>
         <Row>
+          <Col></Col>
           <Col>
-            <Link className='nav-link LoginColor fs-4 text-center p-5 bg-primary' to="/Contato">Onde estamos localizados</Link>
+            <Link className='nav-link LoginColor fs-4 text-center p-3 bg-secondary rounded-4 my-3 text-white' to="/Contato">Onde estamos localizados</Link>
           </Col>
+          <Col></Col>
+        </Row>
+        <Row>
+          <Col className="fs-4 text-center"> A Caralhões Clínica trás para sua empresa as soluções para a gestão e envio (mensageria) dos eventos de saúde e segurança do trabalho. Além disso, a clínica oferece serviços de odontologia personalizados para suas necessidades pessoais, executados com alta tecnologia. Entre em contato hoje mesmo para saber mais sobre os serviços da Clínica Renovar Saúde.</Col>
         </Row>
         
       </Container>
