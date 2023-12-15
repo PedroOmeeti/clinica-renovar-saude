@@ -9,6 +9,7 @@ import Infraestrutura from '../img/estrutura-clinica.jpg'
 // import Emojisorrindo from '../img/emojisorrindo.png'
 import '../Clinica.components.css'
 import { Link } from "react-router-dom";
+import '../Contato.components.css'
 function Clinica() {
   return (
     <div>
@@ -45,12 +46,12 @@ function Clinica() {
         <Row>
           <Col></Col>
           <Col>
-            <Link className='nav-link LoginColor fs-4 text-center p-3 bg-secondary rounded-4 my-3 text-white' to="/Contato">Onde estamos localizados</Link>
+            <Link className='nav-link LoginColor fs-4 text-center p-3 rounded-4 my-3 text-white Background-Conteudo' to="/Contato">Onde estamos localizados</Link>
           </Col>
           <Col></Col>
         </Row>
         <Row>
-          <Col className="fs-4 text-center"> A Caralhões Clínica trás para sua empresa as soluções para a gestão e envio (mensageria) dos eventos de saúde e segurança do trabalho. Além disso, a clínica oferece serviços de odontologia personalizados para suas necessidades pessoais, executados com alta tecnologia. Entre em contato hoje mesmo para saber mais sobre os serviços da Clínica Renovar Saúde.</Col>
+          <Col className="fs-4 text-center"> A Clínica Renovar Saúde trás para sua empresa as soluções para a gestão e envio (mensageria) dos eventos de saúde e segurança do trabalho. Além disso, a clínica oferece serviços de odontologia personalizados para suas necessidades pessoais, executados com alta tecnologia. Entre em contato hoje mesmo para saber mais sobre os serviços da Clínica Renovar Saúde.</Col>
         </Row>
         
       </Container>

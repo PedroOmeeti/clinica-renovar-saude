@@ -33,7 +33,7 @@ function ModalLogin(args) {
             <a href="#" className='nav-link text-secondary'>Esqueci minha senha</a>
         </ModalBody>
         <ModalFooter className='d-flex justify-content-between'>
-          <a className='text-dark' color='' onClick={toggle}>
+          <a href='#' className='text-secondary nav-link' color='' onClick={toggle}>
             Não tenho conta
           </a>{' '}
           <Button className='secondary text-white' color="white" onClick={toggle}>
