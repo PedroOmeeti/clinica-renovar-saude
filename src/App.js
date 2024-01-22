@@ -7,6 +7,7 @@ import Clinica from "./components/pages/Clinica.js";
 import Contato from "./components/pages/Contato.js";
 import Agende from "./components/pages/Agende.js";
 import Adm from "./components/pages/pagesADM/Adm.js";
+import MenuFooter from "./components/MenuFooter.js"
 
 
 function App() {
@@ -27,9 +28,13 @@ function App() {
             
           </Routes>
         </Row>
-            
+
         <Row>
-          <Col className="text-center Footer-color">
+          <MenuFooter />
+        </Row>    
+
+        <Row>
+          <Col className="text-center Footer-color md-">
             <span className="fs-5">&copy;Direitos Reservados - Clínica Renovar Saúde 2023</span>
           </Col>   
         </Row>
