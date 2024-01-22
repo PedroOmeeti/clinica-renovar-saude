@@ -6,7 +6,8 @@ import NavA from "./components/NavA";
 import Clinica from "./components/pages/Clinica.js";
 import Contato from "./components/pages/Contato.js";
 import Agende from "./components/pages/Agende.js";
-import Login from "./components/pages/Login.js";
+import Adm from "./components/pages/pagesADM/Adm.js";
+
 
 function App() {
   return (
@@ -22,11 +23,12 @@ function App() {
             <Route path="/" element={<Clinica />} />
             <Route path="/contato" element={<Contato />} />
             <Route path="/agende" element={<Agende />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/adm" element={<Adm />} />
+            
           </Routes>
         </Row>
             
-        <Row className="mt-5">
+        <Row>
           <Col className="text-center Footer-color">
             <span className="fs-5">&copy;Direitos Reservados - Clínica Renovar Saúde 2023</span>
           </Col>   

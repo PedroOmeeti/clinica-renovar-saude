@@ -3,7 +3,9 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { FaRegUser } from "react-icons/fa";
 import ItemForm from './ItemForm';
 import { FaUserAlt } from "react-icons/fa";
+
 import './ModalLogin.components.css'
+import EntrarADM from './EntrarADM';
 
 function ModalLogin(args) {
   const [modal, setModal] = useState(false);
@@ -37,7 +39,7 @@ function ModalLogin(args) {
             Não tenho conta
           </a>{' '}
           <Button className='secondary text-white' color="white" onClick={toggle}>
-            Enviar
+            <EntrarADM />
           </Button>
         </ModalFooter>
       </Modal>
