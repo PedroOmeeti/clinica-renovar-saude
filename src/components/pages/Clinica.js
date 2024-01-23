@@ -46,7 +46,7 @@ function Clinica() {
         <Row>
           <Col></Col>
           <Col>
-            <Link className='nav-link LoginColor fs-4 text-center p-3 rounded-4 my-3 text-white Background-Conteudo' to="/Contato">Onde estamos localizados</Link>
+            <Link className='nav-link LoginColor fs-4 text-center p-3 rounded-4 my-3 text-white secondary' to="/Contato">Onde estamos localizados</Link>
           </Col>
           <Col></Col>
         </Row>

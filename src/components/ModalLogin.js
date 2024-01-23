@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { FaRegUser } from "react-icons/fa";
 import ItemForm from './ItemForm';
 import { FaUserAlt } from "react-icons/fa";
 
 import './ModalLogin.components.css'
-import EntrarADM from './EntrarADM';
+import { Link } from 'react-router-dom';
 
 function ModalLogin(args) {
   const [modal, setModal] = useState(false);
@@ -38,9 +38,10 @@ function ModalLogin(args) {
           <a href='#' className='text-secondary nav-link' color='' onClick={toggle}>
             Não tenho conta
           </a>{' '}
-          <Button className='secondary text-white' color="white" onClick={toggle}>
-            <EntrarADM />
-          </Button>
+          <Link to="/Adm" className='btn secondary text-white' color="white" onClick={toggle}>
+            Enviar
+          </Link>
+          
         </ModalFooter>
       </Modal>
     </div>

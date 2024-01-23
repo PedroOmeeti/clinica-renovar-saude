@@ -27,7 +27,7 @@ const AdicionarComponent = () => {
     <Container>
       
       <h2>Cadastro de Paciente</h2>
-      <Form onSubmit={handleCadastro}>
+      <Form onSubmit={handleCadastro} className='mb-4'>
         <Row>
           <Col>
             <FormGroup>
@@ -66,7 +66,7 @@ const AdicionarComponent = () => {
             Pessoa com Deficiência
           </Label>
         </FormGroup>
-        <Button color="primary" type="submit">Cadastrar</Button>
+        <Button className='secondary' type="submit">Cadastrar</Button>
       </Form>
     </Container>
   );

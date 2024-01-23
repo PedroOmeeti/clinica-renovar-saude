@@ -35,7 +35,7 @@ function App() {
 
         <Row>
           <Col className="text-center Footer-color md-">
-            <span className="fs-5">&copy;Direitos Reservados - Clínica Renovar Saúde 2023</span>
+            <span className="fs-5">&copy;2024 Copyright - GUPE Desenvolvimento</span>
           </Col>   
         </Row>
       </BrowserRouter>

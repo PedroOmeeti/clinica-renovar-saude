@@ -14,53 +14,53 @@ const Agendamento = () => {
 
   return (
     <Container>
-    
-      
-   
-      <Form onSubmit={handleSubmit}>
+
+
+
+      <Form onSubmit={handleSubmit} className='mb-5'>
         <Row>
           <Col>
-          <FormGroup>
-            <Label for="data">Data:</Label>
-            <Input
-             type="date"
-             name="data"
-              id="data"
-             value={data}
-             onChange={(e) => setData(e.target.value)}/>
-        
-          </FormGroup>
-        </Col>
-        <Col>
-          <FormGroup>
-            <Label for="horario">Horário:</Label>
-            <Input
-              type="time"
-              name="horario"
-              id="horario"
-              value={horario}
-              onChange={(e) => setHorario(e.target.value)}/>
+            <FormGroup>
+              <Label for="data">Data:</Label>
+              <Input
+                type="date"
+                name="data"
+                id="data"
+                value={data}
+                onChange={(e) => setData(e.target.value)} />
+
             </FormGroup>
           </Col>
-      </Row>
-      <FormGroup>
-        <Label for="especialidade">Especialidade:</Label>
-        <Input
-          type="select"
-          name="especialidade"
-          id="especialidade"
-          value={especialidade}
-          onChange={(e) => setEspecialidade(e.target.value)}>
+          <Col>
+            <FormGroup>
+              <Label for="horario">Horário:</Label>
+              <Input
+                type="time"
+                name="horario"
+                id="horario"
+                value={horario}
+                onChange={(e) => setHorario(e.target.value)} />
+            </FormGroup>
+          </Col>
+        </Row>
+        <FormGroup>
+          <Label for="especialidade">Especialidade:</Label>
+          <Input
+            type="select"
+            name="especialidade"
+            id="especialidade"
+            value={especialidade}
+            onChange={(e) => setEspecialidade(e.target.value)}>
 
-          <option value="">Selecione uma especialidade</option>
-          <option value="Dermatologista">Dermatologista</option>
-          <option value="Psicólogo">Psicólogo</option>
-          <option value="Ortopedia">Ortopedia</option>
-        </Input>
-      </FormGroup>
-      <Button type="submit">Agendar</Button>
-        </Form>
-      
+            <option value="">Selecione uma especialidade</option>
+            <option value="Dermatologista">Dermatologista</option>
+            <option value="Psicólogo">Psicólogo</option>
+            <option value="Ortopedia">Ortopedia</option>
+          </Input>
+        </FormGroup>
+        <Button type="submit" className='secondary'>Agendar</Button>
+      </Form>
+
     </Container>
   );
 };

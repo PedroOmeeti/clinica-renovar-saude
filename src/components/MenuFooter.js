@@ -1,18 +1,28 @@
 import React from 'react'
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
+import "./MenuFooter.components.css"
+import { FaWhatsapp, FaEnvelope, FaInstagram, FaFacebookSquare } from "react-icons/fa";
 
 function MenuFooter(){
     return(
-        <div className='text-center bg-secondary text-white p-3'>
+        <div className='text-center text-white p-4 fundinhoKawai'>
                 <Row>
-                    <Col xs='6' className='align-items-center d-flex justify-content-end pe-5'><p>Clínica Renovar Saúde</p></Col>
-                    <Col xs='3' className='column'>
+                    <Col xs='6' className='align-items-center d-flex justify-content-center pe-5 fs-4'><p>Clínica Renovar Saúde</p></Col>
+                    <Col xs='3' className='column fs-6 mt-5'>
                             <p><Link className='nav-link' to='/'>Clínica</Link></p>
                             <p><Link className='nav-link' to='/contato'>Contato</Link></p>
                             <p><Link className='nav-link' to='/agende'>Agende</Link></p>
                     </Col>
-                    <Col xs='3' className='pe-5'>icones contato</Col>
+                    <Col xs='3' className=''>
+                        <p className='fs-5'>nossas redes sociais</p>
+                        <div className='text-start mt-3'>
+                            <p><FaEnvelope/> clinicarenovar@gmail.com</p>
+                            <p><FaFacebookSquare/> Clinica Renovar Pinda</p>
+                            <p><FaInstagram/> @clinicarenovar</p>
+                            <p><FaWhatsapp/> (12) 99590-8846</p>
+                        </div>
+                    </Col>
                 </Row>        
         </div> 
     )
