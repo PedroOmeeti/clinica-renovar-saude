@@ -9,6 +9,7 @@ import {
 import { FaRegUser } from "react-icons/fa";
 import './NavA.components.css'
 import ModalLogin from './ModalLogin';
+import { MdHealthAndSafety } from "react-icons/md";
 
 function NavA() {
  
@@ -17,7 +18,7 @@ function NavA() {
     <div>
       <Navbar expand="md secondary">
         <Col>
-          <Link className='navbar-brand text-white' to="/">Clínica Renovar Saúde</Link>
+          <Link className='navbar-brand text-white' to="/"><MdHealthAndSafety className='mb-1 me-1' />Clínica Renovar Saúde</Link>
         </Col>
           <Nav className="me-auto" navbar>
             <NavItem>

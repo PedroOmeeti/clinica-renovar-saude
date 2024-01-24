@@ -22,10 +22,14 @@
 :root{
   --primary: #005E7C;
   --secondary: #0094C6;
+  --tertiary: #b3b3b3;
 }
 .text-secondary{
   color: var(--secondary) !important;
 }
-.secondary{
+.bg-secondary{
   background-color: var(--secondary) !important;
+}
+.text-tertiary{
+  color: var(--tertiary) !important;
 }
