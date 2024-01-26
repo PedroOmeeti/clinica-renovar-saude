@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.018b58df.css",
+    "main.js": "/static/js/main.802ebbd7.js",
+    "static/js/787.efb714f3.chunk.js": "/static/js/787.efb714f3.chunk.js",
+    "static/media/estrutura-clinica.jpg": "/static/media/estrutura-clinica.6d8a3bee582f921b92d0.jpg",
+    "static/media/banner-slider-002-3.jpg": "/static/media/banner-slider-002-3.85f0580c74203e2d63aa.jpg",
+    "static/media/imagemGrande.jpg": "/static/media/imagemGrande.af07212def6300f50224.jpg",
+    "index.html": "/index.html",
+    "main.018b58df.css.map": "/static/css/main.018b58df.css.map",
+    "main.802ebbd7.js.map": "/static/js/main.802ebbd7.js.map",
+    "787.efb714f3.chunk.js.map": "/static/js/787.efb714f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.018b58df.css",
+    "static/js/main.802ebbd7.js"
+  ]
+}
