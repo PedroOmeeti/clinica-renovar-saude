@@ -36,3 +36,6 @@
 .fundoAgenda{
   background-color: rgb(213, 212, 212);
 }
+.bg-tertiary{
+  background-color: var(--tertiary) !important;
+}

@@ -80,7 +80,7 @@ function Clinica() {
           <Col></Col>
         </Row>
         <Row>
-          <Col className="fs-4 text-center mb-4"> A Clínica Renovar Saúde trás para sua empresa as soluções para a gestão e envio dos eventos de saúde e segurança do trabalho. Além disso, a clínica oferece serviços de odontologia personalizados para suas necessidades pessoais, executados com alta tecnologia. Entre em contato hoje mesmo para saber mais sobre os serviços da Clínica Renovar Saúde.</Col>
+          <Col className="fs-4 text-center mb-4"> A Clínica Renovar Saúde trás para sua empresa as soluções para a gestão e envio dos eventos de saúde. Além disso, a clínica oferece serviços de Psicologia personalizados para suas necessidades pessoais, executados com maestria. Entre em contato hoje mesmo para saber mais sobre os serviços da Clínica Renovar Saúde.</Col>
         </Row>
         
       </Container>

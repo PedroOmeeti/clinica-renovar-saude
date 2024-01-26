@@ -41,7 +41,7 @@ function ModalLogin(args) {
             </Row>
         </ModalBody>
         <ModalFooter className='d-flex justify-content-between'>
-          <a href="#" className='nav-link text-secondary text-end'><ModalRegister /></a>
+          <a href="#" className='nav-link text-secondary text-end' onClick={toggle}><ModalRegister /></a>
           <Link to="/Adm" className='btn secondary text-white' color="white" onClick={toggle}>
             Enviar
           </Link>

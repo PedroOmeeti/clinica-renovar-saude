@@ -15,7 +15,7 @@ function Contato() {
           </Col>
         </Row>
         <Row className="mb-5">
-          <Col>
+          <Col xs="12" md="6">
             <ItemForm
               label="Nome"
               name="nome"
@@ -44,7 +44,7 @@ function Contato() {
               Enviar
             </Button>
           </Col>
-          <Col>
+          <Col xs="12" md="6">
             <h2>Informações</h2>
             <p>
               <p className="h5">Telefone</p>
@@ -66,7 +66,7 @@ function Contato() {
       <Container fluid className="Background-Conteudo text-white pb-3">
         <Container>
           <Row>
-            <Col>
+            <Col xs='12' sm='6'>
                 <p className="text-center fs-1"><FaHandHoldingMedical /></p>
               
                 <p className="h5">Clinica Renovar Saude Centro</p>
@@ -81,7 +81,7 @@ function Contato() {
                 <p><FaMapMarkerAlt /> Av. dos Autonomistas, 896, Centro, Taubaté - SP, 12404-372</p>
                 <p><FaPhoneAlt /> (12) 4002-8922</p>
             </Col>
-            <Col className="d-flex align-self-center">
+            <Col className="d-flex align-self-center" xs='12' sm='6'>
               <div className="mapouter">
                   <div className="gmap_canvas">
                     <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=pindamonhangaba, centro&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>

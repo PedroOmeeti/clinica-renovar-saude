@@ -78,7 +78,7 @@ function AgendaHorarios(){
         <th></th>
     </tr>
     <tr>
-        <th colSpan='8' className='text-center tertiary fs-5'><b>Intervalo</b></th>
+        <th colSpan='8' className='text-center bg-tertiary fs-5'><b>Intervalo</b></th>
     </tr>
     <tr>
         <th className='primary text-white'><b>13:30 - 14:00</b></th>
