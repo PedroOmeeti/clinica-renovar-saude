@@ -22,7 +22,7 @@
 :root{
   --primary: #005E7C;
   --secondary: #0094C6;
-  --tertiary: #b3b3b3;
+  --tertiary: rgb(233, 233, 233);
 }
 .text-secondary{
   color: var(--secondary) !important;
@@ -32,4 +32,7 @@
 }
 .text-tertiary{
   color: var(--tertiary) !important;
+}
+.fundoAgenda{
+  background-color: rgb(213, 212, 212);
 }

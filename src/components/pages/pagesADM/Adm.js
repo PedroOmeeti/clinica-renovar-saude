@@ -32,7 +32,7 @@ function Adm() {
         </Col>
         
         
-        <Col className="Carlos">
+        <Col className='p-0 m-0'>
           <div>{Navegacao}</div>
          
         </Col>

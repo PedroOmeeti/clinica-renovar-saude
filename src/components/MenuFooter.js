@@ -16,7 +16,7 @@ function MenuFooter(){
                             <p><Link className='nav-link' to='/agende'>Agende</Link></p>
                     </Col>
                     <Col xs='3' className=''>
-                        <p className='fs-5'>nossas redes sociais</p>
+                        <p className='fs-5'>Nossas Redes Sociais</p>
                         <div className='text-start mt-3'>
                             <p><FaEnvelope/> clinicarenovar@gmail.com</p>
                             <p><FaFacebookSquare/> Clinica Renovar Pinda</p>

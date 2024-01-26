@@ -6,10 +6,11 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
+import Carrosel1 from './img/banner-slider-002-3.jpg'
 
 const items = [
   {
-    src: 'https://picsum.photos/id/123/2000/400',
+    src: [Carrosel1],
     altText: 'Slide 1',
     caption: 'Slide 1',
     key: 1,

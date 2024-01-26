@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody, ModalFooter, Row, Col } from 'reactstrap';
 import { FaRegUser } from "react-icons/fa";
 import ItemForm from './ItemForm';
 import { FaUserAlt } from "react-icons/fa";
 
 import './ModalLogin.components.css'
 import { Link } from 'react-router-dom';
+import ModalRegister from './ModalRegister';
 
 function ModalLogin(args) {
   const [modal, setModal] = useState(false);
@@ -32,12 +33,15 @@ function ModalLogin(args) {
               type="password"
               ph="Digite sua senha"
             />
-            <a href="#" className='nav-link text-secondary'>Esqueci minha senha</a>
+            <Row>
+              <Col>
+                <a href="#" className='nav-link text-secondary'>Esqueci minha senha</a>
+              </Col>
+             
+            </Row>
         </ModalBody>
         <ModalFooter className='d-flex justify-content-between'>
-          <a href='#' className='text-secondary nav-link' color='' onClick={toggle}>
-            Não tenho conta
-          </a>{' '}
+          <a href="#" className='nav-link text-secondary text-end'><ModalRegister /></a>
           <Link to="/Adm" className='btn secondary text-white' color="white" onClick={toggle}>
             Enviar
           </Link>

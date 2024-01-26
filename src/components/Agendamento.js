@@ -21,14 +21,33 @@ const Agendamento = () => {
           </Col>
       </Row>
     
-      <Form onSubmit={handleSubmit} className='mb-5'>
-        <Row>
+      <Form onSubmit={handleSubmit} className='mb-5 '>
+        <Row className='align-items-center justify-content-center'>
           <Col xs="5">
-            <img src={ImagemGrande} />
+            <img className='' src={ImagemGrande} />
           </Col>
           
           <Col>
             
+            <Row>
+              <Col>
+                <FormGroup>
+                  <Label for="especialidade">Especialidade:</Label>
+                  <Input
+                    type="select"
+                    name="especialidade"
+                    id="especialidade"
+                    value={especialidade}
+                    onChange={(e) => setEspecialidade(e.target.value)}>
+
+                    <option value="">Selecione uma especialidade</option>
+                    <option value="Dermatologista">Dermatologista</option>
+                    <option value="Psicólogo">Psicólogo</option>
+                    <option value="Ortopedia">Ortopedia</option>
+                  </Input>
+                </FormGroup>
+              </Col>
+            </Row>
             <Row>
               <Col>
                 <FormGroup>
@@ -56,25 +75,6 @@ const Agendamento = () => {
               </Col>
             </Row>
             
-            <Row>
-              <Col>
-                <FormGroup>
-                  <Label for="especialidade">Especialidade:</Label>
-                  <Input
-                    type="select"
-                    name="especialidade"
-                    id="especialidade"
-                    value={especialidade}
-                    onChange={(e) => setEspecialidade(e.target.value)}>
-
-                    <option value="">Selecione uma especialidade</option>
-                    <option value="Dermatologista">Dermatologista</option>
-                    <option value="Psicólogo">Psicólogo</option>
-                    <option value="Ortopedia">Ortopedia</option>
-                  </Input>
-                </FormGroup>
-              </Col>
-            </Row>
             
             <Row>
               <Col>
