@@ -24,7 +24,7 @@ const Agendamento = () => {
       <Form onSubmit={handleSubmit} className='mb-5 '>
         <Row className='align-items-center justify-content-center'>
           <Col xs="5">
-            <img className='' src={ImagemGrande} />
+            <img className='rounded-5' src={ImagemGrande} />
           </Col>
           
           <Col>

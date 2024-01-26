@@ -20,7 +20,7 @@ function AgendaHorarios(){
     <tr>
         <th className='primary text-white'><b>09:00 - 09:30</b></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Paulo Moz</b></th>
         <th></th>
         <th></th>
         <th></th>
@@ -29,39 +29,39 @@ function AgendaHorarios(){
     </tr>
     <tr>
         <th className='secondary text-white'><b>09:30 - 10:00</b></th>
-        <th className='secondary text-white'><b>Fausto Silva</b></th>
+        <th className='secondary text-white'><b>Matheus Correia</b></th>
         <th></th>
         <th></th>
         <th></th>
         <th></th>
         <th></th>
-        <th className='secondary text-white'><b>Fausto Silva</b></th>
+        <th className='secondary text-white'><b>Raul Dias</b></th>
     </tr>
     <tr>
         <th className='primary text-white'><b>10:00 - 10:30</b></th>
         <th></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Marcos Caprezzi</b></th>
         <th></th>
         <th></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Tony Soprano</b></th>
     </tr>
     <tr>
         <th className='secondary text-white'><b>10:30 - 11:00</b></th>
         <th></th>
         <th></th>
         <th></th>
-        <th className='secondary text-white'><b>Fausto Silva</b></th>
+        <th className='secondary text-white'><b>Walter White</b></th>
         <th></th>
         <th className='secondary text-white'><b>Juliano Alberto</b></th>
-        <th className='secondary text-white'><b>Fausto Silva</b></th>
+        <th className='secondary text-white'><b>Roberto Carlos</b></th>
     </tr>
     <tr>
         <th className='primary text-white'><b>11:00 - 11:30</b></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Silvio Santos</b></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Chico Buarque</b></th>
         <th></th>
         <th></th>
         <th className='primary text-white'><b>Fernando Barros</b></th>
@@ -73,7 +73,7 @@ function AgendaHorarios(){
         <th></th>
         <th></th>
         <th></th>
-        <th className='secondary text-white'><b>Fausto Silva</b></th>
+        <th className='secondary text-white'><b>Louis Lane</b></th>
         <th></th>
         <th></th>
     </tr>
@@ -83,10 +83,10 @@ function AgendaHorarios(){
     <tr>
         <th className='primary text-white'><b>13:30 - 14:00</b></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Mary Jane</b></th>
         <th></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Peter Parker</b></th>
         <th></th>
         <th></th>
     </tr>
@@ -103,18 +103,18 @@ function AgendaHorarios(){
     <tr>
         <th className='primary text-white'><b>14:30 - 15:00</b></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Clark Kent</b></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Bruce Wayne</b></th>
         <th></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Paulo Muzy</b></th>
     </tr>
     <tr>
         <th className='secondary text-white'><b>15:00 - 15:30</b></th>
         <th></th>
         <th></th>
-        <th className='secondary text-white'><b>Fausto Silva</b></th>
+        <th className='secondary text-white'><b>Chris Bumstead</b></th>
         <th></th>
         <th></th>
         <th className='secondary text-white'><b>André Silva</b></th>
@@ -122,7 +122,7 @@ function AgendaHorarios(){
     </tr>
     <tr>
         <th className='primary text-white'><b>15:30 - 16:00</b></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Ramom Dino</b></th>
         <th></th>
         <th></th>
         <th></th>
@@ -133,9 +133,9 @@ function AgendaHorarios(){
     <tr>
         <th className='secondary text-white'><b>16:00 - 16:30</b></th>
         <th></th>
-        <th className='secondary text-white'><b>Fausto Silva</b></th>
+        <th className='secondary text-white'><b>Oliver Queen</b></th>
         <th></th>
-        <th className='secondary text-white'><b>Fausto Silva</b></th>
+        <th className='secondary text-white'><b>Rick Grimes</b></th>
         <th></th>
         <th></th>
         <th></th>
@@ -146,7 +146,7 @@ function AgendaHorarios(){
         <th></th>
         <th></th>
         <th></th>
-        <th className='primary text-white'><b>Fausto Silva</b></th>
+        <th className='primary text-white'><b>Daryl Dixon</b></th>
         <th className='primary text-white'><b>Fausto Silva</b></th>
         <th></th>
     </tr>

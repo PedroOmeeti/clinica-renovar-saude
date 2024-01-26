@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Form, FormGroup, Label, Input, Button, Row, Col } from 'reactstrap';
+import './Marcar.component.css';
 
 function MarcarComponent() {
   const [cpf, setCpf] = useState('');
@@ -14,13 +15,17 @@ function MarcarComponent() {
 
   return (
     <div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Row>
         <Col>
-          <h1 className='mt-5'>Marcar Consulta</h1>
+          <h1 className='mt-5 text-center'>Marcar Consulta</h1>
         </Col>
       </Row>
 
-      <Form onSubmit={handleSubmit} className='mt-3 mb-5'>
+      <Form onSubmit={handleSubmit} className='mt-5 mb-5 centraliza'>
         <Row>
           <Col>
             <FormGroup>

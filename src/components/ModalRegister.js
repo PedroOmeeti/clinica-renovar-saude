@@ -49,6 +49,18 @@ function ModalRegister(args) {
             type="date"
             ph="Digite sua data de Nascimento"
           />
+          <ItemForm
+            label="Convênio"
+            name="convenio"
+            type="text"
+            ph="Digite seu Convênio"
+          />
+          <ItemForm
+            label="Celular"
+            name="celular"
+            type="text"
+            ph="Digite seu número de celular"
+          />
           
           <ItemForm
             label="Email"
